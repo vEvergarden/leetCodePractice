@@ -12,6 +12,8 @@ public class Twitter {
 		private int timestamp;
 		private Tweet next;
 		
+		public Tweet() {}
+		
 		public Tweet(int id, int timestamp) {
 			this.id = id;
 			this.timestamp = timestamp;
@@ -25,7 +27,7 @@ public class Twitter {
 	/** Initialize your data structure here. */
     public Twitter() {
     	
-    	tweet = new 
+    	tweet = new Tweet();
 
     }
     
